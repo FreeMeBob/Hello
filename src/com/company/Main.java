@@ -6,6 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Person person=new Person();
+        person.nameList();
+
         Scanner sc=new Scanner(System.in);
         System.out.println("enter a number");
         int num=sc.nextInt();
@@ -13,6 +16,7 @@ public class Main {
         {
             print();
         }
+
     }
     static void print()
     {
